@@ -1,0 +1,27 @@
+h1{
+    color: red;
+    background-color: black;
+    display: block;
+    text-align: center;
+    margin: 30px;
+}
+.identitas, .link{
+    text-align: center;
+    margin: 30px;
+    height: 50%;
+    border-collapse: collapse;
+    border: 5px;
+    border-color: black;
+}
+th{
+    height: 70px;
+    width: 70px;
+    text-align: center;
+}
+tr{
+    height: 70px;
+    width: 70px;
+}
+.kolom_tiga, .kolom_empat{
+    width: 130px;
+}

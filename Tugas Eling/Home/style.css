@@ -1,0 +1,124 @@
+:root{
+    --bg : rgb(134, 122, 122);
+    --contentBg : #c0a1a1;
+    --radius: 1.4rem;
+    --headNavFoot: rgb(75, 73, 73);
+}
+
+*{
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+}
+.header{
+    background: var(--headNavFoot);
+    padding: 1rem;
+    border-radius: var(--radius);
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.3rem;  
+}
+.header span{
+    color: var(--contentBg);
+}
+.footer{
+    background-color: var(--headNavFoot);
+    text-align: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: var(--radius);
+    height: 3rem;
+    padding: 0.5rem;
+}
+html{
+    position: relative;
+}
+body{
+    font-family: 'Signika Negative', sans-serif;
+    background-color: var(--bg);
+    margin: 0;
+    padding: 1rem 1rem;
+    color: white;
+    min-height: 1000px;
+}
+.navbar{
+    display: flex;
+    position: sticky;
+    top: 0;
+    padding: 0.5rem;
+    background-color: var(--headNavFoot);
+    justify-content: space-between;
+    margin-top: 1rem;
+    align-items: center;
+    border-radius: var(--radius);
+    z-index: 9999;
+}
+.navbar .navbar-nav a{
+    color: white;
+    display: inline-block;
+    font-size: 1.1rem;
+    margin: 0 0.7rem;
+}
+.navbar .navbar-nav a:hover{
+    color: var(--bg);  
+}
+.navbar .navbar-nav a::after{
+    content: '';
+    display: block;
+    padding-bottom: 0.2rem;
+    border-bottom: 0.2rem solid var(--bg);
+    transform: scaleX(0);
+    transition: 0.2s;
+}
+.navbar .navbar-nav a:hover::after{
+    transform: scaleX(1);
+}
+.sidebar{
+    background-color: var(--contentBg);
+    width: 336px;
+    height: auto;
+    border-radius: var(--radius);
+    margin-top: 1rem;
+    padding: 0.5rem;
+    position: absolute;
+    z-index: 0;
+}
+.foto{
+    width: 150px;
+    height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0.5rem;
+    border-radius: 3.1rem;
+}
+.sidebar span{
+    color: blue;
+    margin-left: 1rem;
+}
+.content{
+    width: 960px;
+    height: auto;
+    background-color: var(--contentBg);
+    margin-left: 22rem;
+    margin-top: 1rem;
+    border-radius: var(--radius);
+    position: absolute;
+    z-index: 0;
+    padding: 0.5rem 1rem;
+
+}
+/* .about{
+    
+} */
+.kontak{
+    padding-top: 3rem;
+}
+.kontak td span{
+    padding-left: 1rem;
+    color: white;
+}

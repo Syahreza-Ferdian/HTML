@@ -1,0 +1,14 @@
+.header{
+    color: green;
+    background-color: black;
+    display: block;
+    margin: 30px;
+    text-align: center;
+}
+.text_pembuka{
+    color: red;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.form_isian{
+    margin: 30px;
+}

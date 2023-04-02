@@ -1,0 +1,55 @@
+body{
+    background-color: aqua;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.header{
+    font-family:monospace;
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+.tabel{
+    border-collapse: collapse;
+    border-color: black;
+    margin: auto;
+}
+/* tr:nth-child(odd){
+    background-color: rgb(180, 175, 175);
+}
+tr:nth-child(even){
+    background-color: lightgray;
+} */
+.kategori{
+    width: 250px;
+    text-align: left;
+}
+.isian{
+    width: 500px;
+    padding: 15px;
+}
+#name, #address{
+    width: 500px;
+}
+.button{
+    position: absolute;
+    top: 65%;
+    left: 66%;
+}
+.submit_b{
+    background-color: blue;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.reset_b{
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.tahapan{
+    margin-top: auto;
+    margin: 70px;
+}
